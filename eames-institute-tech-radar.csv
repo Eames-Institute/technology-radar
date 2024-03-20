@@ -1,0 +1,38 @@
+name,ring,quadrant,isNew,description
+Python,hold,languages & frameworks,FALSE,"An “interpreted, object-oriented, high-level programming language with dynamic semantics”. Previously used on our Wagtail site. Nothing inherently wrong with it, but in situations where Python might be required, we would rather lean towards JavaScript."
+TypeScript,assess,languages & frameworks,FALSE,"A strongly-typed programming language that builds on JavaScript, allowing great error reporting when types don’t match across packages or applications. Can slow down development a bit though if you aren’t accustomed to strongly typed languages."
+AWS,adopt,platforms,FALSE,
+Docker,trial,platforms,FALSE,
+Split testing,assess,techniques,FALSE,A method of conducting controlled experiments with goal of improving a specific metric.
+Babel,,tools,FALSE,
+CircleCI,trial,tools,FALSE,
+Cloudflare,,tools,FALSE,
+Terraform,,tools,FALSE,
+Webpack,,tools,FALSE,
+VSCode pairing,assess,tools,FALSE,
+Heroku,assess,platforms,FALSE,"A PaaS allowing developers to build, run, and operate apps in the cloud. Worthwhile, but not necessary if we go with headless architecture + Vercel. Might be stagnating following Salesforce purchase, but then again, sometimes “stagnant” is just a glass-half-empty word for “stable”."
+Serverless architecture,trial,techniques,TRUE,"An approach to software design that allows engineers to build and run services without having to manage server. For the purposes of our v2 site, this likely means a headless CMS combined with hosting."
+SCSS,adopt,languages & frameworks,FALSE,"A preprocessor scripting language that is a superset of CSS. While we would love to rely on vanilla CSS, there is still some functionality not yet supported by the standard that we require for efficient development."
+Vercel,trial,platforms,TRUE,"The “frontend cloud”, basically quick and flexible hosting for the frontend of an app or website. Easy to set up, reasonable cost, great preview-related features including commenting."
+Visual regression testing,assess,techniques,TRUE,An automated way for checking design accuracy across a website when code changes have been made. Essential to avoid unintended consequences.
+Wagtail,hold,tools,FALSE,"An open-source Django CMS powered by Python. Similar to WordPress in that it can be used headlessly, but not ideal since there aren’t many serverless options (if any)."
+Hotjar,trial,tools,FALSE,
+Google Analytics,trial,tools,FALSE,
+Google Tag Manager,trial,tools,FALSE,A tag management system that allows quick updates to measurement codes and other code fragments.
+Sanity,trial,platforms,TRUE,"A hosted headless CMS. Originally developed by Bengler for OMA to underpin their website, catalogues, exhibitions, etc, then rolled out as its own product. We like the structured data approach and the clean editor experience."
+Directus,assess,platforms,TRUE,"A “composable data platform” that can be used as a hosted headless CMS. A <em>very</em> close second to Sanity, but ultimately ruled out for v2 website due to cost and Sanity’s slightly better fit in terms of purpose (more of a CMS rather than an all-in-one platform. Keeping this in the “assess” ring though since it may be appropriate in the future."
+CloudCannon,hold,platforms,TRUE,A Git-backed headless CMS with hosting. Ruled out due to issues with references to deleted content in relation fields.
+Tina (née Forestry),hold,platforms,TRUE,A Git-backed headless CMS (no hosting). Ruled out due to poor Insights data in their GitHub repo. Not a great sign in combination with so many bug issues open.
+Decap (née Netlify CMS),hold,platforms,TRUE,A Git-backed headless CMS. Ruled out due to issues with references to deleted content in relation fields.
+WordPress Headless,hold,tools,TRUE,"The elder statesman of CMSs. Ruled out because it doesn’t offer as much flexibility as other possibilities, such as Sanity."
+Strapi,,tools,TRUE,An open source headless CMS that can be self-hosted or not. Certain functionality doesn’t seem as developed as Sanity (and vice versa...)
+Contentful,hold,platforms,TRUE,"Very similar to Sanity in many ways, but Sanity seems stronger in terms of overall direction and UI. Contentful is also pricier."
+Headless architecture,trial,techniques,TRUE,"Software development concept that separates frontend from backend. Essential for flexibility in the event that we want to change one aspect of our tech stack, or support multiple apps via a single database / API."
+Astro,trial,tools,TRUE,"A web framework for building websites that uses both static site generation (SSG) and server-side rendering (SSR), allowing you to pick which content uses which approach."
+Eleventy,trial,tools,TRUE,"A static site generator known for simplicity, flexibility, and speed. Can support some server-side rendering (SSR) via plugins such as WebC."
+Hugo,hold,tools,FALSE,A fast static site generator written in Go. No client-side support and a hassle to use with headless CMS.
+SvelteKit,hold,tools,FALSE,"A Svelte-powered framework, a component based system for breaking HTML, CSS, and JS in to small, reusable components. Next.js is to React as SvelteKit is to Svelte. Not impressed with our experience of it, and feel like we don’t need so much server-side rendering (SSR)."
+Web components,assess,tools,TRUE,A native suite technologies allowing creation of reusable custom elements and utilize them in web apps. Support varies as of March 2024.
+HTMX,assess,tools,TRUE,"A dependency-free, browser-oriented JavaScript library to access modern browser features (AJAX requests, CSS Transitions, WebSockets, Server Sent Emails, etc.) directly from HTML."
+P3 color,assess,tools,TRUE,A new-ish alternative color space supporting a wider range of colors than RGB.
+IndexedDB API,assess,tools,TRUE,A low-level API for client-side storage of significant amounts of structured data.
