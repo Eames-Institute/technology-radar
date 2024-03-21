@@ -7,6 +7,9 @@ Vercel,trial,platforms,FALSE,"<p>ℹ️ The “frontend cloud”, basically quic
 Hotjar,trial,tools,FALSE,<p>ℹ️ A product experience insights platform. Behavior-focused.</p>
 Google Analytics,trial,tools,FALSE,"<p>ℹ️ A behemoth platform for integrating advertising and analytics. Metrics-focused.</p><p>💭 There are alternatives, but we are most familiar with GA.</p>"
 Google Tag Manager,trial,tools,FALSE,<p>ℹ️ A tag management system that allows quick updates to measurement codes and other code fragments.</p>
+Prettier,trial,tools,TRUE,<p>ℹ️ An opinionated code formatter supporting many languages and integrating with most editors.</p><p>💭 Code formatters let us get on with more important discussions and avoid bikeshedding.</p>
+ESLint,trial,tools,TRUE,<p>ℹ️ A static code analysis tool for identifying problematic patterns found in JavaScript code.</p><p>💭 Linters and formatters let us get on with more important discussions and avoid bikeshedding.</p>
+Stylelint,trial,tools,TRUE,<p>ℹ️ A tool that reports bad code in CSS files.</p><p>💭 Code formatters and linters let us get on with more important discussions and avoid bikeshedding.</p>
 Sanity,trial,platforms,FALSE,"<p>ℹ️ A hosted headless CMS. Originally developed by Bengler for OMA to underpin their website, catalogues, exhibitions, etc, then rolled out as its own product.</p><p>💭 We like the structured data approach and the clean editor experience.</p>"
 Headless architecture,trial,techniques,FALSE,"<p>ℹ️ Software development concept that separates frontend from backend.</p><p>💭 Essential for flexibility in the event that we want to change one aspect of our tech stack, or support multiple apps via a single database / API.</p>"
 Astro,trial,languages & frameworks,FALSE,"<p>ℹ️ A web framework for building websites that uses both static site generation (SSG) and server-side rendering (SSR), allowing you to pick which content uses which approach.</p>"
